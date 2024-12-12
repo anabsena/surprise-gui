@@ -9,6 +9,7 @@ export default function Home() {
     const startDate = new Date("2021-03-09T18:00:00");
     const interval = setInterval(() => {
       const now = new Date();
+      //@ts-ignore
       const diff = now - startDate;
 
       const years = Math.floor(diff / (1000 * 60 * 60 * 24 * 365));
