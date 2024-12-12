@@ -12,6 +12,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        parisienne: ['"Parisienne"', 'cursive'], 
+        poppins: ['"Poppins"', "sans-serif"],
+        sulphur_point: ['"Sulphur point"', "sans-serif"],
+        // Nome personalizado
+      },
     },
   },
   plugins: [],
